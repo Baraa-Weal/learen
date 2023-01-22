@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+button {
+  background-color: blueviolet;
+  border-radius: 4px;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: larger;
+}
+.container {
+  width: 120px;
+  height: 500%;
+  background-color: brown;
+}
+.container p {
+  font-size: large;
+  font-weight: 600;
+  padding: 5px;
+}
+.container p:hover {
+  background-color: #696666;
+}
+#close {
+  left: 125px;
+  position: absolute;
+}
+.hide {
+  display: none;
+}
